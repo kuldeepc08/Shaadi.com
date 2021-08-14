@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity" duration-ms="118413" started-at="2021-08-14T13:06:58 IST" finished-at="2021-08-14T13:08:56 IST">
+    <groups>
+    </groups>
+    <test name="Verify login functionlity" duration-ms="118413" started-at="2021-08-14T13:06:58 IST" finished-at="2021-08-14T13:08:56 IST">
+      <class name="shaadi.Testcases.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:shaadi.Testcases.LoginTest@42d8062c]" name="beforeTest" is-config="true" duration-ms="15470" started-at="2021-08-14T13:06:58 IST" finished-at="2021-08-14T13:07:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:shaadi.Testcases.LoginTest@42d8062c]" name="beforeclass" is-config="true" duration-ms="23" started-at="2021-08-14T13:07:13 IST" finished-at="2021-08-14T13:07:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="Verify_Login(java.lang.String, java.lang.String)[pri:0, instance:shaadi.Testcases.LoginTest@42d8062c]" name="Verify_Login" duration-ms="14532" started-at="2021-08-14T13:07:13 IST" description="This test case will perform login related validation" finished-at="2021-08-14T13:07:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9823863597]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123$$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:shaadi.Testcases.LoginTest@42d8062c]" name="afterTest" is-config="true" duration-ms="1032" started-at="2021-08-14T13:08:55 IST" finished-at="2021-08-14T13:08:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- shaadi.Testcases.LoginTest -->
+      <class name="shaadi.Testcases.HomeTest">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:shaadi.Testcases.HomeTest@6043cd28]" name="beforeclass" is-config="true" duration-ms="0" started-at="2021-08-14T13:07:28 IST" finished-at="2021-08-14T13:07:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="Verify_HomePage()[pri:1, instance:shaadi.Testcases.HomeTest@6043cd28]" name="Verify_HomePage" duration-ms="42575" started-at="2021-08-14T13:07:28 IST" description="This test case is to perform Validation on Home screen" finished-at="2021-08-14T13:08:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_HomePage -->
+        <test-method status="PASS" signature="Verify_PremiumWidget()[pri:2, instance:shaadi.Testcases.HomeTest@6043cd28]" name="Verify_PremiumWidget" duration-ms="40307" started-at="2021-08-14T13:08:10 IST" description="This test case is to perform Validation on Premium Widget" finished-at="2021-08-14T13:08:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_PremiumWidget -->
+        <test-method status="PASS" signature="Verify_NewMatchesWidget()[pri:3, instance:shaadi.Testcases.HomeTest@6043cd28]" name="Verify_NewMatchesWidget" duration-ms="4419" started-at="2021-08-14T13:08:50 IST" description="This test case is to perform Validation on New Matches Widget" finished-at="2021-08-14T13:08:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_NewMatchesWidget -->
+      </class> <!-- shaadi.Testcases.HomeTest -->
+    </test> <!-- Verify login functionlity -->
+  </suite> <!-- Sanity -->
+</testng-results>
